@@ -21,7 +21,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ENV.CLIENT_URL,
+    origin:"https://interview-platform-10-65fu.onrender.com",
     credentials: true,
   })
 );
