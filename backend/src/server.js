@@ -12,6 +12,7 @@ const chatRoutes = require("./routes/chatRoutes");
 const sessionRoutes = require("./routes/sessionRoute");
 
 const app = express();
+console.log("CLIENT_URL =", ENV.CLIENT_URL);
 
 //const __dirname = path.resolve();
 
